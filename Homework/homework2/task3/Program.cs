@@ -4,9 +4,9 @@
 7 -> да
 1 -> нет*/
 
-bool main (int num);
+bool main (int k);
 {
-    if (num == 6 || num = 7)
+    if (k == 6 || k == 7)
     {
         return true ;
     }
@@ -15,4 +15,4 @@ bool main (int num);
          return false;
     }
 }
- Console.WriteLine($"{main}5");
+ Console.WriteLine($"{main(5)}");
